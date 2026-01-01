@@ -2,6 +2,12 @@
 
 A modern, full-featured product management system built with React, TypeScript, and Tailwind CSS. This application provides a complete CRUD (Create, Read, Update, Delete) interface for managing product catalogs with real-time updates and an intuitive user experience.
 
+## Live Demo
+
+🚀 **[View Live Demo](https://your-deployment-url-here.com)**
+
+> Note: Replace the above link with your actual deployment URL (Vercel, Netlify, etc.)
+
 ## Features
 
 ### Core Functionality
