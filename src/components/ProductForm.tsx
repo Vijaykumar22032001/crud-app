@@ -97,47 +97,43 @@ export const ProductForm = ({ product, onSubmit, onCancel, isSubmitting = false 
         disabled={isSubmitting}
       />
 
-      <div className="grid grid-cols-2 gap-4">
-        <Input
-          label="Price"
-          type="number"
-          step="0.01"
-          {...register('price', { valueAsNumber: true })}
-          error={errors.price?.message}
-          required
-          disabled={isSubmitting}
-        />
+      <Input
+        label="Price"
+        type="number"
+        step="0.01"
+        {...register('price', { valueAsNumber: true })}
+        error={errors.price?.message}
+        required
+        disabled={isSubmitting}
+      />
 
-        <Input
-          label="Discount %"
-          type="number"
-          step="0.01"
-          {...register('discountPercentage', { valueAsNumber: true })}
-          error={errors.discountPercentage?.message}
-          disabled={isSubmitting}
-        />
-      </div>
+      <Input
+        label="Discount %"
+        type="number"
+        step="0.01"
+        {...register('discountPercentage', { valueAsNumber: true })}
+        error={errors.discountPercentage?.message}
+        disabled={isSubmitting}
+      />
 
-      <div className="grid grid-cols-2 gap-4">
-        <Input
-          label="Stock"
-          type="number"
-          {...register('stock', { valueAsNumber: true })}
-          error={errors.stock?.message}
-          required
-          disabled={isSubmitting}
-        />
+      <Input
+        label="Stock"
+        type="number"
+        {...register('stock', { valueAsNumber: true })}
+        error={errors.stock?.message}
+        required
+        disabled={isSubmitting}
+      />
 
-        <Input
-          label="Rating"
-          type="number"
-          step="0.1"
-          max="5"
-          {...register('rating', { valueAsNumber: true })}
-          error={errors.rating?.message}
-          disabled={isSubmitting}
-        />
-      </div>
+      <Input
+        label="Rating"
+        type="number"
+        step="0.1"
+        max="5"
+        {...register('rating', { valueAsNumber: true })}
+        error={errors.rating?.message}
+        disabled={isSubmitting}
+      />
 
       <Input
         label="Brand"
