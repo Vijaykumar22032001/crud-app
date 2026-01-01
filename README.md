@@ -4,7 +4,7 @@ A modern, full-featured product management system built with React, TypeScript, 
 
 ## Live Demo
 
-🚀 **[View Live Demo](https://your-deployment-url-here.com)**
+🚀 **[View Live Demo](https://crud-app-tl3e.vercel.app/)**
 
 
 ## Features
