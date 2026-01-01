@@ -6,7 +6,6 @@ A modern, full-featured product management system built with React, TypeScript, 
 
 🚀 **[View Live Demo](https://your-deployment-url-here.com)**
 
-> Note: Replace the above link with your actual deployment URL (Vercel, Netlify, etc.)
 
 ## Features
 

@@ -60,7 +60,7 @@ export const ProductForm = ({ product, onSubmit, onCancel, isSubmitting = false 
         const cats = await productService.getCategories();
         const categoriesArray = Array.isArray(cats) ? cats : [];
         const stringCategories = categoriesArray.map(cat =>
-          typeof cat === 'string' ? cat : cat.slug || cat.name || String(cat)
+          typeof cat === 'string' ? cat : (cat as any).slug || (cat as any).name || String(cat)
         );
         setCategories(stringCategories);
       } catch (error) {
