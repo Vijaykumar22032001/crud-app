@@ -30,12 +30,12 @@ A modern, full-featured product management system built with React, TypeScript, 
 ## Screenshots
 
 ### Product List View
-![Product List View](crud-app/src/assets/image-1.png)
+![Product List View](src/assets/image-1.png)
 
 *Main dashboard showing product table with search functionality, pagination, and quick actions*
 
 ### Add/Edit Product Form
-![Product Form](crud-app/src/assets/image-2.png)
+![Product Form](src/assets/image-2.png)
 
 *Modal form with horizontal label layout for creating and editing products*
 
